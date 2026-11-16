@@ -73,7 +73,7 @@ If you use this code or data, please cite:
 
 > Brorsen LF, Granborg JR, Janfelt C, Haedersdal M, Bjerring P, Lerche CM.
 > Comparison of energy-based devices for mass spectrometric detection of skin cancer during tissue removal.
-> *Lasers in Surgery and Medicine* (in press).
+> *Lasers in Surgery and Medicine* (submitted).
 
 The raw data conversion, spectral extraction and consensus peak picking were performed in the
 in-house software MS IonVision, which is not included in this repository. Raw data are available
