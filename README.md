@@ -65,4 +65,18 @@ Run time is about three minutes on a laptop. All random steps use a fixed seed (
 
 ## Licence and citation
 
-[Add a licence, e.g. MIT for the code and CC BY 4.0 for the data, and the final citation and DOI.]
+**Code:** MIT licence (see [LICENSE](LICENSE)).
+**Data** (`data/`): [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+You may reuse and adapt both, provided you cite the article below.
+
+If you use this code or data, please cite:
+
+> Brorsen LF, Granborg JR, Janfelt C, Haedersdal M, Bjerring P, Lerche CM.
+> Comparison of energy-based devices for mass spectrometric detection of skin cancer during tissue removal.
+> *Lasers in Surgery and Medicine* (in press).
+
+The raw data conversion, spectral extraction and consensus peak picking were performed in the
+in-house software MS IonVision, which is not included in this repository. Raw data are available
+from the corresponding author on reasonable request.
+
+**Contact:** Lauritz Falkow Brorsen, lauritz.brorsen@sund.ku.dk (ORCID 0000-0002-6941-053X)
