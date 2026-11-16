@@ -1,0 +1,10 @@
+Prevalence threshold (%),Features (n),Model,Mean accuracy,SD,Cohen's kappa
+10,3127,LDA,0.921,0.192,0.935
+10,3127,Logistic regression,0.973,0.022,0.936
+10,3127,Random forest,0.91,0.191,0.91
+30,1135,LDA,0.898,0.229,0.916
+30,1135,Logistic regression,0.97,0.039,0.95
+30,1135,Random forest,0.906,0.189,0.91
+50,378,LDA,0.888,0.269,0.919
+50,378,Logistic regression,0.92,0.193,0.934
+50,378,Random forest,0.934,0.113,0.916

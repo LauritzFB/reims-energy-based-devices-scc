@@ -1,0 +1,5 @@
+Device,Burns (n),Peaks (n),Peaks m/z < 550,Peaks m/z >= 550
+Super-pulsed CO2 laser,24,518,354,164
+Pulsed CO2 laser,24,671,544,127
+Electrocautery,23,311,289,22
+Nitrogen plasma,24,577,529,48

@@ -1,0 +1,274 @@
+{
+ "n_spectra_total": 933,
+ "n_spectra_by_tissue": {
+  "tumor": 453,
+  "non_tumor": 424,
+  "background": 56
+ },
+ "n_mice": 12,
+ "n_burns": 95,
+ "spectra_per_burn": {
+  "mean": 9.23,
+  "min": 5,
+  "max": 20
+ },
+ "n_outliers": 73,
+ "n_outliers_by_tissue": {
+  "background": 6,
+  "non_tumor": 34,
+  "tumor": 33
+ },
+ "training_mice": [
+  "330",
+  "350",
+  "369",
+  "373",
+  "376",
+  "390",
+  "392",
+  "397"
+ ],
+ "holdout_mice": [
+  "340",
+  "379",
+  "385",
+  "393"
+ ],
+ "spectra_after_outlier_removal": {
+  "hold-out|background": 7,
+  "hold-out|non_tumor": 132,
+  "hold-out|tumor": 153,
+  "training|background": 43,
+  "training|non_tumor": 258,
+  "training|tumor": 267
+ },
+ "feature_selection": {
+  "n_spectra": 568,
+  "n_features_after_prevalence": 1135,
+  "n_features_after_prevalence_tumor_vs_non_tumor_only": 1061,
+  "n_fdr_significant": 1056,
+  "n_outer_folds": 12,
+  "cv_accuracy_at_170": 0.9151,
+  "cv_balanced_accuracy_at_170": 0.9164
+ },
+ "device_independent_model": {
+  "n_training_spectra": 525,
+  "n_holdout_spectra": 285,
+  "coverage": [
+   275,
+   285
+  ],
+  "confident_only": {
+   "n": 275,
+   "tp": 147,
+   "fn": 1,
+   "tn": 126,
+   "fp": 1,
+   "accuracy": 0.9927272727272727,
+   "sensitivity": 0.9932432432432432,
+   "specificity": 0.9921259842519685,
+   "balanced_accuracy": 0.9926846137476059
+  },
+  "all_spectra": {
+   "n": 285,
+   "tp": 150,
+   "fn": 3,
+   "tn": 130,
+   "fp": 2,
+   "accuracy": 0.9824561403508771,
+   "sensitivity": 0.9803921568627451,
+   "specificity": 0.9848484848484849,
+   "balanced_accuracy": 0.982620320855615
+  }
+ },
+ "bias_checks": {
+  "including_outliers_all": {
+   "n": 308,
+   "tp": 160,
+   "fn": 5,
+   "tn": 139,
+   "fp": 4,
+   "accuracy": 0.9707792207792207,
+   "sensitivity": 0.9696969696969697,
+   "specificity": 0.972027972027972,
+   "balanced_accuracy": 0.9708624708624709
+  },
+  "including_outliers_confident": {
+   "n": 292,
+   "tp": 156,
+   "fn": 1,
+   "tn": 133,
+   "fp": 2,
+   "accuracy": 0.9897260273972602,
+   "sensitivity": 0.9936305732484076,
+   "specificity": 0.9851851851851852,
+   "balanced_accuracy": 0.9894078792167964
+  },
+  "including_outliers_coverage": [
+   292,
+   308
+  ],
+  "outliers_only_all": {
+   "n": 23,
+   "tp": 10,
+   "fn": 2,
+   "tn": 9,
+   "fp": 2,
+   "accuracy": 0.8260869565217391,
+   "sensitivity": 0.8333333333333334,
+   "specificity": 0.8181818181818182,
+   "balanced_accuracy": 0.8257575757575758
+  },
+  "wilson_95ci_accuracy_confident": [
+   0.9739,
+   0.998
+  ],
+  "wilson_95ci_accuracy_all": [
+   0.9596,
+   0.9925
+  ],
+  "burn_level_mean_probability": {
+   "n": 32,
+   "tp": 16,
+   "fn": 0,
+   "tn": 16,
+   "fp": 0,
+   "accuracy": 1.0,
+   "sensitivity": 1.0,
+   "specificity": 1.0,
+   "balanced_accuracy": 1.0
+  },
+  "per_mouse_accuracy_all": {
+   "340": 0.987,
+   "379": 0.9855,
+   "385": 0.9706,
+   "393": 0.9859
+  }
+ },
+ "pca": {
+  "n_spectra": 810,
+  "n_features": 1068,
+  "explained_variance_percent": [
+   10.1,
+   3.7,
+   2.1,
+   1.8,
+   1.5
+  ],
+  "eta_squared": {
+   "PC1": {
+    "tissue": 0.49,
+    "device": 0.22,
+    "mouse": 0.03
+   },
+   "PC2": {
+    "tissue": 0.02,
+    "device": 0.47,
+    "mouse": 0.01
+   },
+   "PC3": {
+    "tissue": 0.05,
+    "device": 0.03,
+    "mouse": 0.03
+   }
+  }
+ },
+ "features": {
+  "favoured_class": {
+   "Non-tumor": 98,
+   "Tumor": 51,
+   "Background": 21
+  },
+  "n_below_mz_550": 117,
+  "mz_range": [
+   205.13,
+   729.75
+  ],
+  "selected_in_all_folds": 68,
+  "selected_in_at_least_9_folds": 139,
+  "concordant_in_4_devices": 49,
+  "concordant_in_at_least_3": 110,
+  "concordant_in_0": 7,
+  "overlap_single_device_top170_with_panel": {
+   "Super-pulsed CO2 laser": 57,
+   "Pulsed CO2 laser": 60,
+   "Electrocautery": 56,
+   "Nitrogen plasma": 56
+  },
+  "features_shared_by_all_four_single_device_rankings": 6,
+  "tentative_annotations": [
+   [
+    1,
+    283.2572,
+    "FA 18:0",
+    -7.1
+   ],
+   [
+    3,
+    255.2189,
+    "FA 16:0",
+    -14.1
+   ],
+   [
+    15,
+    337.305,
+    "FA 22:1",
+    -6.2
+   ],
+   [
+    17,
+    395.4063,
+    "FA 26:0",
+    16.8
+   ],
+   [
+    26,
+    365.3451,
+    "FA 24:1",
+    2.6
+   ],
+   [
+    29,
+    327.2253,
+    "FA 22:6",
+    -7.7
+   ],
+   [
+    146,
+    269.2409,
+    "FA 17:0",
+    -7.7
+   ]
+  ]
+ },
+ "spectral_richness": [
+  {
+   "Device": "Super-pulsed CO2 laser",
+   "Burns (n)": 24,
+   "Peaks (n)": 518,
+   "Peaks m/z < 550": 354,
+   "Peaks m/z >= 550": 164
+  },
+  {
+   "Device": "Pulsed CO2 laser",
+   "Burns (n)": 24,
+   "Peaks (n)": 671,
+   "Peaks m/z < 550": 544,
+   "Peaks m/z >= 550": 127
+  },
+  {
+   "Device": "Electrocautery",
+   "Burns (n)": 23,
+   "Peaks (n)": 311,
+   "Peaks m/z < 550": 289,
+   "Peaks m/z >= 550": 22
+  },
+  {
+   "Device": "Nitrogen plasma",
+   "Burns (n)": 24,
+   "Peaks (n)": 577,
+   "Peaks m/z < 550": 529,
+   "Peaks m/z >= 550": 48
+  }
+ ]
+}

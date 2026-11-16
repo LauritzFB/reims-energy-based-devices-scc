@@ -1,0 +1,17 @@
+Training device,Target device,Training spectra (n),Target spectra (n),Features (n),Coverage (%),"Balanced accuracy, thresholded (%)","Sensitivity, thresholded (%)","Specificity, thresholded (%)","Balanced accuracy, all spectra (%)","Sensitivity, all spectra (%)","Specificity, all spectra (%)"
+Super-pulsed CO2 laser,Super-pulsed CO2 laser,134,73,1325,95.9,100.0,100.0,100.0,98.4,100.0,96.8
+Super-pulsed CO2 laser,Pulsed CO2 laser,134,76,1325,75.0,60.7,100.0,21.4,68.2,100.0,36.4
+Super-pulsed CO2 laser,Electrocautery,134,74,1325,81.1,58.7,100.0,17.4,66.2,100.0,32.4
+Super-pulsed CO2 laser,Nitrogen plasma,134,62,1325,74.2,95.6,96.2,95.0,90.3,90.3,90.3
+Pulsed CO2 laser,Super-pulsed CO2 laser,133,73,1233,87.7,97.1,94.3,100.0,96.4,92.9,100.0
+Pulsed CO2 laser,Pulsed CO2 laser,133,76,1233,97.4,100.0,100.0,100.0,98.5,100.0,97.0
+Pulsed CO2 laser,Electrocautery,133,74,1233,97.3,97.1,100.0,94.3,95.9,100.0,91.9
+Pulsed CO2 laser,Nitrogen plasma,133,62,1233,58.1,94.0,92.3,95.7,79.0,74.2,83.9
+Electrocautery,Super-pulsed CO2 laser,143,73,1236,94.5,91.2,82.5,100.0,88.9,81.0,96.8
+Electrocautery,Pulsed CO2 laser,143,76,1236,96.1,100.0,100.0,100.0,97.3,97.7,97.0
+Electrocautery,Electrocautery,143,74,1236,95.9,100.0,100.0,100.0,97.3,100.0,94.6
+Electrocautery,Nitrogen plasma,143,62,1236,69.4,72.0,62.5,81.5,67.7,58.1,77.4
+Nitrogen plasma,Super-pulsed CO2 laser,115,73,1240,98.6,98.4,100.0,96.8,97.2,97.6,96.8
+Nitrogen plasma,Pulsed CO2 laser,115,76,1240,80.3,83.3,100.0,66.7,80.3,100.0,60.6
+Nitrogen plasma,Electrocautery,115,74,1240,83.8,62.0,100.0,24.0,63.5,100.0,27.0
+Nitrogen plasma,Nitrogen plasma,115,62,1240,88.7,94.0,88.0,100.0,88.7,77.4,100.0

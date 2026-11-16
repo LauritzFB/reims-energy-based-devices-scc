@@ -1,0 +1,9 @@
+Device,Tissue,Spectra (n),Burns (n),Median total ion count,Median detected peaks per spectrum
+Super-pulsed CO2 laser,Non-tumor,95,12,287410.0,869.0
+Super-pulsed CO2 laser,Tumor,112,12,335571.0,835.5
+Pulsed CO2 laser,Non-tumor,95,12,352223.0,858.0
+Pulsed CO2 laser,Tumor,114,12,549465.5,843.0
+Electrocautery,Non-tumor,112,11,445903.5,870.5
+Electrocautery,Tumor,105,12,360152.0,831.0
+Nitrogen plasma,Non-tumor,88,12,86492.5,785.0
+Nitrogen plasma,Tumor,89,12,153724.0,816.0
